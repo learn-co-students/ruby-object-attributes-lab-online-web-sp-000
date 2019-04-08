@@ -1,15 +1,15 @@
-class Dog
- def name=(fido)
+class Dog # The setter and getter teach the Dog object about itself 
+ def name=(fido) # setter 
    @name = fido 
    end 
- def name
+ def name # getter 
    @name
  end
  
- def breed=(beagle)
+ def breed=(beagle) # setter 
    @breed = beagle
  end
- def breed
+ def breed # getter
    @breed
  end 
 end 
