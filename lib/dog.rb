@@ -1,0 +1,20 @@
+class Dog
+
+def name=(new_name)
+  @name = new_name
+end
+
+def name
+  @name
+end
+
+def breed=(breed_is)
+  @breed = breed_is
+end
+
+def breed
+  @breed
+end
+
+
+end
