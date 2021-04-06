@@ -10,9 +10,13 @@ class Dog
     @name = name
   end
   
-  def breed= (breed)
+  def breed
     @breed = breed
   end
-binding.pry
+  
+  def breed= (breed_name)
+    @breed = breed_name
+  end
+
 end
 
