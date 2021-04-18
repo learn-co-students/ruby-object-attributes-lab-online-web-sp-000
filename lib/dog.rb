@@ -4,14 +4,14 @@ class Dog
         @name = dogs_name
     end
 
-    def name
-        "#{@name}"
-    end
-
     def breed= (breed)
         @dog = breed
     end
 
+    def name
+        "#{@name}"
+    end
+    
     def breed
         "#{@dog}"
     end
